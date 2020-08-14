@@ -16,5 +16,5 @@ model_cm = confusion_matrix(y_true=actual, y_pred=predicted, labels=class_labels
 
 plt.figure()
 plot_confusion_matrix(model_cm, classes=class_labels, normalize=False, title="Random Forest Confusion Matrix")
-plt.savefig('figures/random_forest_matrix.png', dpi=500, pad_inches=0.3)
+plt.savefig('figures/random_forest_matrix.png', dpi=200, pad_inches=0.3)
 plt.show()
